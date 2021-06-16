@@ -333,4 +333,20 @@ textarea {
     padding: 24px;
   }
 
+  .image {
+    object-fit: cover;
+  }
+  
+  .contact-form {
+    background-image: url("../assets/contact-bg.png");
+    background-size: contain;
+  }
+  
+  .home-indicator {
+    background-color: #0d151e;
+    height: 4px;
+    width: 134px;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+  }
 }
