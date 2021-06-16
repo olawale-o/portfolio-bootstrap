@@ -322,3 +322,15 @@ body {
 textarea {
   resize: none;
 }
+
+
+@media screen and (max-width: 1024px) { 
+  .profile-section {
+    background-image: url("../assets/header-bg.png");
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    padding: 24px;
+  }
+
+}
