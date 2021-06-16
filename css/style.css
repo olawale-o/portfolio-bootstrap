@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.header-section {
+  background-color: #fff;
+  border-bottom-left-radius: 125px;
+  margin-bottom: 100px;
+}
+
+.profile-section {
+  background-image: url("../assets/header-bg-desktop.png");
+  background-size: contain;
+  padding: 0 250px 0 250px;
+  min-height: 750px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.about-header {
+  padding-top: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0 0 12px 0;
+  width: 327px;
+  color: #172b4d;
+}
+  
+.about-body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  transition: transform 0.5s ease-in-out;
+}
+  
+.about-body:hover {
+  transform: translateX(5%);
+}
+  
+.link {
+  display: inline-block;
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.socials {
+  margin: 0 0 20px 0;
+  width: 180px;
+}
+
+.socials li {
+  border: none;
+  background: none;
+}
+
+.socials li:first-child {
+  padding-left: 0;
+}
+  
+.linkedin {
+  width: 24px;
+  height: 24px;
+}
