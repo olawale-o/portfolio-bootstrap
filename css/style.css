@@ -78,11 +78,6 @@ body {
   object-fit: contain;
   margin: 0 0 20px 0;
   box-sizing: border-box;
-  transition: transform 0.5s ease-in-out;
-}
-
-.image:hover {
-  transform: scale(1.05);
 }
 
 .title {
@@ -130,11 +125,6 @@ body {
   line-height: 24px;
   color: #344563;
   box-sizing: border-box;
-  transition: transform 0.5s ease-in-out;
-}
-
-.text:hover {
-  transform: translateX(5%);
 }
 
 .tags {
@@ -201,25 +191,20 @@ body {
 .about-section {
   background-color: #fff;
   box-sizing: border-box;
-  margin: 0;
   border-top-right-radius: 125px;
   box-sizing: border-box;
 }
 
 .about-myself {
-  padding: 80px 0;
   width: 100%;
   min-height: 700px;
   box-sizing: border-box;
 }
   
 .about-header-title {
-  padding: 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: left;
-  margin: 0 0 12px 0;
   width: 327px;
   color: #172b4d;
 }
@@ -251,9 +236,6 @@ body {
 }
 
 .language {
-  display: flex;
-  align-items: center;
-  margin: 0 0 20px 0;
   background-color: #f7f7f9;
   border-radius: 8px;
 }
@@ -279,8 +261,6 @@ body {
 
 .contact-form {
   background-image: url("../assets/contact-bg-desktop.png");
-  padding: 24px;
-  margin: 21px 0 0 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: top right;
@@ -295,24 +275,8 @@ body {
 }
 
 .contact-text {
-  font-size: 20px;
   color: #ebebff;
-  line-height: 28px;
-  text-align: center;
-  transition: transform 0.5s ease-in-out;
-}
-
-.contact-text:hover {
-  transform: translateX(5%);
-}
-
-.fieldset {
-  padding: 45px 0 0 0;
-  margin: 0;
-  border: none;
-  outline: none;
-  width: 100%;
-  box-sizing: border-box;
+  width: 40%;
 }
 
 .field {
@@ -337,16 +301,13 @@ textarea {
     object-fit: cover;
   }
   
+  .contact-text {
+    width: 100%;
+  }
+
   .contact-form {
     background-image: url("../assets/contact-bg.png");
     background-size: contain;
   }
   
-  .home-indicator {
-    background-color: #0d151e;
-    height: 4px;
-    width: 134px;
-    margin: 0 0 10px 0;
-    border-radius: 10px;
-  }
 }

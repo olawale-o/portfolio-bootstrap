@@ -249,7 +249,9 @@
 										</button>
 									</li>
 								</ul>
-								<button class="btn btn-primary">See Project</button>
+								<button class="btn btn-primary"
+								data-bs-toggle="modal" data-bs-target="#modalThree"
+								>See Project</button>
 							</div>
 						</div>
 					</div>
@@ -299,18 +301,166 @@
 										</button>
 									</li>
 								</ul>
-								<button class="btn btn-primary">See Project</button>
+								<button class="btn btn-primary"
+								data-bs-toggle="modal" data-bs-target="#modalFour"
+								>See Project</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThree" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="modalThree">
+						Tonic
+					  </h5>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					
+					<div class="modal-body">
+						<ul class="list-group d-flex flex-row align-items-center skills">
+							<li class="list-group-item proficiency">CANOPY</li>
+							<li class="list-group-item dot"></li>
+							<li class="list-group-item role">Back End Dev</li>
+							<li class="list-group-item dot"></li>
+							<li class="list-group-item year">2015</li>
+						</ul>
+					  <div class="d-flex flex-column">
+						<div class="col-sm-12">
+							<img class="image img-fluid sm" src="assets/posts.png" alt="stories" />
+						</div>
+						<div class="row">
+							<div class="col-sm-7">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+								took a galley of type and scrambled it to make a type specimen book. 
+								It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+							</div>
+							<div class="col-sm-5">
+								<ul class="list-group d-flex flex-row align-items-center mb-5 tags">
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Html
+										</button>
+									</li>
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Css
+										</button>
+									</li>
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Javascript
+										</button>
+									</li>
+								</ul>
+	
+								<div class="d-flex flex-row">
+									<button class="btn btn-primary me-3">
+										See live <img
+										src="assets/live.png"
+										class="social-img"
+										alt="finger"
+									/>
+									</button>
+									<button class="btn btn-primary">
+										See source <img
+										src="assets/bluegit.png"
+										class="social-img"
+										alt="finger"
+									/>
+									</button>
+							   	</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFour" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="modalFour">
+						Multi-Post
+						<br />
+						Stories
+					  </h5>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					
+					<div class="modal-body">
+						<ul class="list-group d-flex flex-row align-items-center skills">
+							<li class="list-group-item proficiency">CANOPY</li>
+							<li class="list-group-item dot"></li>
+							<li class="list-group-item role">Back End Dev</li>
+							<li class="list-group-item dot"></li>
+							<li class="list-group-item year">2015</li>
+						</ul>
+					  <div class="d-flex flex-column">
+						<div class="col-sm-12">
+							<img class="image img-fluid sm" src="assets/Snapshoot-Portfolio.png" alt="stories" />
+						</div>
+						<div class="row">
+							<div class="col-sm-7">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+								took a galley of type and scrambled it to make a type specimen book. 
+								It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+							</div>
+							<div class="col-sm-5">
+								<ul class="list-group d-flex flex-row align-items-center mb-5 tags">
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Html
+										</button>
+									</li>
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Css
+										</button>
+									</li>
+									<li class="list-group-item tag">
+									<button type="button" class="btn btn-primary">
+										Javascript
+										</button>
+									</li>
+								</ul>
+	
+							   <div class="d-flex flex-row">
+									<button class="btn btn-primary me-3">
+										See live <img
+										src="assets/live.png"
+										class="social-img"
+										alt="finger"
+									/>
+									</button>
+									<button class="btn btn-primary">
+										See source <img
+										src="assets/bluegit.png"
+										class="social-img"
+										alt="finger"
+									/>
+									</button>
+							   </div>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+
 			<section class="about-section p-3" id="about">
 				<div class="container-fluid">
-					<div class="row p-lg-5 about-myself">
+					<div class="row py-5 about-myself">
 						<div class="col-sm-12 col-lg-7 mb-5">
-							<h1 class="about-header-title">
+							<h1 class="text-start mb-3 about-header-title">
 								About
 								<br />
 								MySelf
@@ -378,7 +528,7 @@
 									<span><i class="bx bx-chevron-down"></i></span>
 								</div>
 								<ul class="list-group languages-list">
-									<li class="list-group-item language">
+									<li class="list-group-item mb-3 language">
 										<img
 											class="img-fluid me-2"
 											src="assets/javascript-logo.png"
@@ -386,7 +536,7 @@
 										/>
 										<span>JavaScript</span>
 									</li>
-									<li class="list-group-item language">
+									<li class="list-group-item mb-3 language">
 										<img
 											class="img-fluid me-2"
 											src="assets/html5-logo.png"
@@ -438,10 +588,10 @@
 			</section>
 			<section class="contact-section" id="contact">
 				<div class="container-fluid contact-form-section">
-					<div class="row">
-						<div class="contact-form text-center">
+					<div class="d-flex flex-column">
+						<div class="text-center contact-form">
 							<h4 class="contact-heading">Contact me</h4>
-							<p class="contact-text">
+							<p class="mx-auto contact-text">
 								If you have an application you are interested in developing, a
 								feature that you need built or a project that needs coding. I’d
 								love to help with it
